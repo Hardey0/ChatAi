@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #111;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    text-align: center;
+  
+}
+.container {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    max-width: 90%;
+    word-wrap: break-word;
+    transition: opacity 0.7s ease-in-out;
+}
+
+/* Fade-out effect */
+.fade-out {
+    opacity: 0;
+}
+
+.gradient-text {
+    background: linear-gradient(45deg, #00aaff, #0078ff, #005bbf);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 5px rgba(0, 120, 255, 0.3);
+}
+
+.loading-text {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #0078ff;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        font-size: 1.2em;
+    }
+}
+/* 
+.gradient-text {
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #00ff00, #00ffff, #0000ff, #ff00ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} */
+
+.cursor {
+    display: inline-block;
+    width: 8px;
+    height: 24px;
+    background-color: white;
+    margin-left: 5px;
+    animation: blink 0.6s infinite alternate;
+}
+
+/* @keyframes blink {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+} */
