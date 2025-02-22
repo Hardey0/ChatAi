@@ -1,0 +1,46 @@
+{
+  "hash": "9d79e423",
+  "configHash": "7d3ef641",
+  "lockfileHash": "2bf0b61b",
+  "browserHash": "57b0e8c0",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "0e8a5c80",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "829bc79a",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.mjs",
+      "file": "react-router-dom.js",
+      "fileHash": "ff2648a5",
+      "needsInterop": false
+    },
+    "react-icons/fa": {
+      "src": "../../node_modules/react-icons/fa/index.mjs",
+      "file": "react-icons_fa.js",
+      "fileHash": "a15c2c08",
+      "needsInterop": false
+    },
+    "react-spinners/ClipLoader": {
+      "src": "../../node_modules/react-spinners/ClipLoader.js",
+      "file": "react-spinners_ClipLoader.js",
+      "fileHash": "991445a2",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-K5LUDHM4": {
+      "file": "chunk-K5LUDHM4.js"
+    },
+    "chunk-6JKWCWVM": {
+      "file": "chunk-6JKWCWVM.js"
+    }
+  }
+}
